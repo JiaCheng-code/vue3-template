@@ -31,14 +31,4 @@ onMounted(() => {
   console.log(store.state.count)
 })
 </script>
-<style scoped>
-html,
-body,
-#cesiumContainer {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-</style>
+<style scoped></style>

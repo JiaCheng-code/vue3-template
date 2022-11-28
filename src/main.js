@@ -6,5 +6,6 @@ import router from './route'
 
 import 'normalize.css'
 import 'element-plus/dist/index.css'
+import './assets/css/index.less'
 
 createApp(App).use(store).use(router).use(ElementPlus).mount('#app')
